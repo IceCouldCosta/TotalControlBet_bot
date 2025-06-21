@@ -1,1 +1,1 @@
-worker: python bot.py
+web: python TotalControlBet_bot/bot.py
