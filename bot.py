@@ -13,7 +13,7 @@ async def status(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("статус", status))
+    app.add_handler(CommandHandler("status", status))
     app.run_polling()
 
 if __name__ == '__main__':
